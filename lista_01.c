@@ -11,7 +11,7 @@ int main () {
     struct lista *p;
     int i, suma;
     L = NULL; /* Crea una lista vacia */
-    for (i = 4; i >= 1; i--) {
+    for (i = 100000; i >= 1; i--) {
         /* Reserva memoria para un nodo */
         p = (struct lista *) malloc(sizeof(struct lista));
         p->clave = i;
@@ -28,5 +28,6 @@ int main () {
         p = p->sig;
     }
     printf("\nsuma = %d\n", suma);
+
     return 0;
 }
