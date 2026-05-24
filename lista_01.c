@@ -19,6 +19,8 @@ int main () {
         L = p;
     }
 
+    // Leer la lista
+    
     p = L; 
     // Nunca se debe perder el puntero al primer elemento de la lista
     suma = 0;
