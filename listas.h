@@ -83,3 +83,16 @@ void agregaInicio(LISTA **lis, int elem){
         *lis = q;
     }
 }
+
+LISTA *creaLista(){
+    return NULL; 
+}
+
+void listaVacia(LISTA *lis){
+    if (lis == NULL){
+        printf("Lista Vacia\n");
+    }
+    else{
+        printf("Lista contiene elementos\n");
+    }
+}
